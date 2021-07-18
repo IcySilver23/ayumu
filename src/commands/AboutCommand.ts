@@ -42,7 +42,7 @@ Opus Encoder        :: ${opusEncoderName} v${(await import(this.getPackageJSON(o
 Bot version         :: v${(await import(path.join(process.cwd(), "package.json"))).version}
 
 Source code         :: https://github.com/zhycorp/disc-11
-Get a support       :: https://discord.gg/GuW3DhB9Zn
+Get support       :: https://discord.gg/GuW3DhB9Zn
 \`\`\`
         `)
                 .setAuthor(`${this.client.user?.username as string} - A simple open-source Discord music bot`)
